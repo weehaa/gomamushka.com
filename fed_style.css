@@ -1,0 +1,221 @@
+ @font-face {
+    font-family: DinPro;
+    src: url(http://gomamushka.com/font/DINPro-Medium.otf);
+}
+ @font-face {
+    font-family: DinProLight;
+    src: url(http://gomamushka.com/font/DINPro-Light.otf);
+}
+
+.news-col:nth-last-child(1) {
+  background-color: red;
+}
+
+body {
+	font-family: DinProLight;
+    font-size: 16px;
+}
+.bg1 {
+background-color: rgba(76, 120, 145, 1);
+}
+.bg1tr {
+background-color: rgba(76, 120, 145, 0.5);
+}
+
+.bg2 {
+background-color: rgba(65, 142, 150, 1);
+}
+.bg2tr {
+background-color: rgba(65, 142, 150, 0.5);
+}
+
+.bg3
+{
+background-color: rgba(226, 226, 226, 1);
+}
+
+.bg4 {
+background-color: rgba(243, 119, 112, 0.5);
+}
+
+.bg-bottom {
+  height: 600px;
+  background: url( 'http://gomamushka.com/wp-content/themes/fedfirst/images/lighthouse.jpg') 100% 100% no-repeat;
+  background-position: right, bottom;
+  background-size: cover;
+}
+
+.nobg {
+background-color: transparent;
+}
+
+.show-grid  {
+/* background-color: rgba(76, 155, 145, 1); */
+border:1px solid rgba(86,61,124,1);
+}
+.thin {
+    width: 10px;
+}
+
+#menu-item-50 a {
+    color: rgba(240, 117, 109, 1);
+}
+
+h1 {
+    font-family: DinPro;
+  	font-size: 2em;
+    font-weight: bold;
+	color: rgba(76, 120, 145, 1);
+    padding-bottom: 20px;
+}
+h2 {
+    font-family: DinPro;
+  	font-size: 1.8em;
+    font-weight: bold;
+	color: rgba(76, 120, 145, 1);
+    padding-bottom: 20px;
+}
+h4, .white {
+	font-size: 14px;
+	color: white;
+}
+
+.storyline {
+  float: none;
+  margin: 0 auto;
+  width: 800px;
+  max-width: 100%;
+  padding: 20px 15px;
+  font-weight: normal;
+  line-height: 1.6em;
+  color: white;
+}
+.storyline h1 {
+  color: #FFFFFF;
+  margin: 0;
+}
+.news {
+  padding-left: 0;
+  padding-right: 0;
+}
+.news-title {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+.news-col {
+  padding: 15px;
+  margin-top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+  background-color: #f8f8f8;
+}
+
+.news-col img {
+  width: 100%;
+  height: 100%;
+}
+#bwg_container1_0 #bwg_container2_0 .bwg_standart_thumb_spun1_0 {
+  margin: 13px !important;
+}
+
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a {
+	font-family: DinPro;
+	font-size: 16px;
+	color: white;
+	}
+ .right {
+    border-right:2px solid white;
+}
+ .right2 {
+    border-right:20px solid white;
+}
+
+.border-top {
+  border-top:1em solid white;
+}
+.header1 {
+margin-top:15px;
+margin-bottom:10px;
+}
+
+.header2 {
+min-height :50px;
+padding-top:8px;
+}
+
+
+.wide-header {
+	height: 450px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#pop-up-post-calendar {
+display:none;
+position: absolute;
+    left:  100;
+    top: 200;
+    width: 300px;
+    height: 300px;
+    z-index: 999;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+#pop-up-calendar:hover {
+    cursor: pointer;
+     }
+
+#pop-up-calendar:hover + #pop-up-post-calendar {
+
+     display: block;
+}
+
+h4 a.amenu, a.amenu:hover {
+    color: white;
+}
+
+img.size-medium, img.size-large, img.size-full {
+    max-width: 100%;
+height: auto;
+}
+
+.row{
+    overflow: hidden;
+}
+
+.padding_hor_sm{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.wp-caption {
+background-color: rgba(226, 226, 226, 1);
+border: thick solid rgba(226, 226, 226, 1);
+ border-radius: 3em;
+ margin-top: 2em;
+ margin-bottom: 2em;
+     max-width: 100%;
+}
+[class*="wp-image-"], .attachment-large{
+border-radius: 3em;
+}
+.attachment-large {
+    width:100% !important;
+    height: auto;
+}
+
+
+
+.wp-caption-text{
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
