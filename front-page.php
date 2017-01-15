@@ -34,17 +34,24 @@ if (is_front_page()) :
     </div>
 </div>
 
+<!-- Header2 - progress items -->
 <div class="container-fluid bg2">
     <div class="container">
         <div class="row header2">
-            <div class="nobg col-md-4 col-sm-4"><h4><img src="<?php bloginfo('template_directory'); ?>/images/calend.png">
-            <?=get_option('trip_days'); ?> дней с момента старта</h4></div>
-            <div class="nobg col-md-4 col-sm-4"><h4 class="text-center"><a href="<?php bloginfo('url'); ?>/mamushka-position/" title="Где сейчас Мамушка?"  class="amenu"><img src="<?php bloginfo('template_directory'); ?>/images/map1.png"> Пройдено:<?=get_option('fd_gpx_route1');?> морских миль</a></h4></div>
-            <div class="nobg col-md-4 col-sm-4"><h4 class="text-right"><a href="<?php bloginfo('url'); ?>/category/budget/" title="Расходы экипажа Мамушки"  class="amenu"><img src="<?php bloginfo('template_directory'); ?>/images/money.png"> Потрачено: $<?=get_option('expense_total');?></a></h4></div>
+            <div class="nobg col-md-4 col-sm-4 col-xs-12 px-0 head2">
+                <span class="header2-item item1">           <?=get_option('trip_days'); ?> дней с момента старта</span>
             </div>
+            <div class="nobg col-md-4 col-sm-4 col-xs-12 text-center px-0 head2">
+                <span class="header2-item item2"><a href="<?php bloginfo('url'); ?>/mamushka-position/" title="Где сейчас Мамушка?"  class="amenu">Пройдено: <?=get_option('fd_gpx_route1');?> морских миль</a></span>
+            </div>
+            <div class="nobg col-md-4 col-sm-4 col-xs-12 text-right px-0 head2">
+                <span class="header2-item item3"><a href="<?php bloginfo('url'); ?>/category/budget/" title="Расходы экипажа Мамушки"  class="amenu">Потрачено: $<?=get_option('expense_total');?></a></span>
+            </div>
+        </div>
     </div>
 </div>
 
+<!-- Map -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 col-sm-12 wide-header">
@@ -56,6 +63,7 @@ if (is_front_page()) :
 </div>
 <!--bug in shortcode --></div>
 
+<!-- h1, Storyline -->
 <div class="container-fluid">
   <div class="row bg1 text-center">
      <div class="col-md-12 col-sm-12 text-center storyline">
@@ -70,7 +78,7 @@ if (is_front_page()) :
 
 
   <div class="row">
-    <div class="container">
+    <div class="container px-0">
       <div class = "row">
         <div class = "col-md-12">
           <h2 class = "text-center">Новые путевые заметки</h2>
@@ -104,6 +112,8 @@ if (is_front_page()) :
     </div>
   </div>
 </div>
+
+<!-- Photos & FB link -->
 <div class="container-fluid bg-bottom">
     <div class="row " >
       <div class = "col-md-12">

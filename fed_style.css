@@ -11,6 +11,9 @@
   .email {
     text-align: left !important;
   }
+  .head2 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -22,6 +25,36 @@
 body {
 	font-family: DinProLight;
     font-size: 1.6em;
+}
+.progression {
+  position: relative;
+}
+
+.header2-item {
+  padding-left: 2em;
+  color: #ffffff;
+  line-height: 35px;
+}
+.header2-item a {
+  color: #ffffff !important;
+}
+
+.header2-item.item1 {
+  background: url('./images/calend.png') 0 0 no-repeat;
+}
+
+.header2-item.item2 {
+  background: url('./images/map1.png') 2% 0 no-repeat;
+}
+
+.header2-item.item3 {
+  background: url('./images/money.png') 0 0 no-repeat;
+}
+
+.header-icons {
+  position: absolute;
+  display: block;
+  top: 8px;
 }
 .bg1 {
 background-color: rgba(76, 120, 145, 1);
@@ -121,7 +154,7 @@ h4, .white {
   background-color: #f8f8f8;
 }
 
-.news {
+.px-0 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -155,8 +188,9 @@ margin-bottom:10px;
 }
 
 .header2 {
-min-height :50px;
-padding-top:8px;
+/*min-height: 50px;*/
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .footer {
