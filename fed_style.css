@@ -26,6 +26,15 @@ body {
 	font-family: DinProLight;
     font-size: 1.6em;
 }
+
+/*to be done*/
+.nav-top li:last-child {
+  background: #ff4400;
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 12px;
+}
+
 .progression {
   position: relative;
 }
@@ -77,6 +86,17 @@ background-color: rgba(226, 226, 226, 1);
 
 .bg4 {
 background-color: rgba(243, 119, 112, 0.5);
+}
+
+.bg-volna-1 {
+  background-image:url('./images/volna_bgr.png'); background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+.bg-volna-2 {
+  background-image:url('./images/volna_bgr_2.png'); background-position: bottom;
+  background-repeat: repeat-x;
+  height: 130px;
 }
 
 .bg-bottom {
@@ -238,7 +258,7 @@ img.size-medium, img.size-large, img.size-full {
     overflow: hidden;
 }
 
-.padding_hor_sm{
+.padding_hor_sm {
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;

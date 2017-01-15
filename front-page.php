@@ -1,55 +1,4 @@
-<?php
-if (is_front_page()) :
- get_header('front');
- endif;
-?>
-
-<div class="container-fluid bg1">
-    <div class="container header1">
-        <div class="row">
-            <div class="nobg col-lg-2 col-md-3 col-sm-3 col-xs-6 right text-right"><a href="<?php bloginfo('url'); ?>">
-              <img src="<?php bloginfo('template_directory'); ?>/images/svmamushka_logo1.png" alt="Путешествие на яхте Мамушка" /></a>
-            </div>
-            <div class="nobg col-lg-10 col-md-9 col-sm-9 col-xs-6"><?php echo do_shortcode ('[shortmenu menu="Menu 1"  enhance="true"  display="inline" menu_anchor_color="#ffffff"  menu_anchor_hover_color="#ffffff"  submenu_anchor_color="#e0e0e0"  submenu_anchor_hover_color="#ffffff"  submenu_transparency="0.8"  arrow="false"  is_responsive="true" responsive="750"]')?>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid bg1"  style="background-image:url(<?php bloginfo('template_directory'); ?>/images/volna_bgr.png); background-position: bottom; background-repeat: repeat-x">
-    <div class="container header1">
-        <div class="row">
-            <div class="nobg col-md-4 col-sm-2 hidden-xs  text-center">
-                <div style="padding-top: 60px"><img src="<?php bloginfo('template_directory'); ?>/images/logo_boat1.png"></div>
-                <div style="padding-top: 20px"><img src="<?php bloginfo('template_directory'); ?>/images/wave_blue_md.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_blue_md.png"></div>
-            </div>
-            <div class="nobg col-md-4 col-sm-8 col-xs-12 text-center">
-              <img src="<?php bloginfo('template_directory'); ?>/images/log.png" width="300" alt="Парусная яхта Мамушка. Путешествие офисного планктона по мировому океану" />
-            </div>
-            <div class="nobg col-md-4 col-sm-2 hidden-xs" style="padding-top: 150px; padding-left: 30px;">
-                <div class="hidden-sm"><img src="<?php bloginfo('template_directory'); ?>/images/wave_white.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_white.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_white.png"></div>
-                <div style="padding-top: 20px"><img src="<?php bloginfo('template_directory'); ?>/images/dolphins.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_blue_md.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_blue_md.png"><img src="<?php bloginfo('template_directory'); ?>/images/wave_blue_md.png"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Header2 - progress items -->
-<div class="container-fluid bg2">
-    <div class="container">
-        <div class="row header2">
-            <div class="nobg col-md-4 col-sm-4 col-xs-12 px-0 head2">
-                <span class="header2-item item1">           <?=get_option('trip_days'); ?> дней с момента старта</span>
-            </div>
-            <div class="nobg col-md-4 col-sm-4 col-xs-12 text-center px-0 head2">
-                <span class="header2-item item2"><a href="<?php bloginfo('url'); ?>/mamushka-position/" title="Где сейчас Мамушка?"  class="amenu">Пройдено: <?=get_option('fd_gpx_route1');?> морских миль</a></span>
-            </div>
-            <div class="nobg col-md-4 col-sm-4 col-xs-12 text-right px-0 head2">
-                <span class="header2-item item3"><a href="<?php bloginfo('url'); ?>/category/budget/" title="Расходы экипажа Мамушки"  class="amenu">Потрачено: $<?=get_option('expense_total');?></a></span>
-            </div>
-        </div>
-    </div>
-</div>
+<?php  get_header(); ?>
 
 <!-- Map -->
 <div class="container-fluid">
@@ -61,7 +10,7 @@ if (is_front_page()) :
      </div>
    </div>
 </div>
-<!--bug in shortcode --></div>
+<!--bug in shortcode script - unclosed div??? --></div>
 
 <!-- h1, Storyline -->
 <div class="container-fluid">
