@@ -7,14 +7,10 @@
   ga('send', 'pageview');
 </script>
 
-<div class="container-fluid bg1">
-  <div class="row">
-    <div class="container">
-  <div class="row">
-    <div class="col-md-12 col-sm-12 text-left">
-        <div class="fb-like" data-href="https://www.facebook.com/s.v.mamushka/" data-width="320" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-    </div>
-  </div>
+<div class="container-fluid bg1 ">
+  <div class="row footer">
+    <div class="container ">
+
     <!-- <div class="container-fluid header1"> -->
         <div class="row">
             <div class="nobg col-lg-6 col-md-6 col-sm-5 col-xs-12 left">
@@ -24,7 +20,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
                       <img src="<?php bloginfo('template_directory'); ?>/images/svmamushka_logo1.png" alt="s/v MAMUSHKA" />
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right copyright">
                         <h4>&#169; 2015-<?php echo date('Y') ?></h4>
                     </div>
                   </div>
@@ -38,8 +34,8 @@
             </div>
         </div>
     <!-- </div> -->
-</div>
-</div>
+    </div>
+  </div>
 </div>
 		</div> <!-- end of wrapper -->
 	</body>

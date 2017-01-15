@@ -104,8 +104,8 @@ if (is_front_page()) :
     </div>
   </div>
 </div>
-<div class="container-fluid">
-    <div class="row bg-bottom" >
+<div class="container-fluid bg-bottom">
+    <div class="row " >
       <div class = "col-md-12">
         <h2 class = "text-center">Фотографии нашего приключения</h2>
       </div>
@@ -113,6 +113,11 @@ if (is_front_page()) :
         <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
           <?php dynamic_sidebar( 'home_bottom_1' ); ?>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+          <div class="fb-like" data-href="https://www.facebook.com/s.v.mamushka/" data-width="320" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
       </div>
     </div>
 </div>

@@ -7,9 +7,15 @@
     src: url(http://gomamushka.com/font/DINPro-Light.otf);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .email {
-    text-align: center !important;
+    text-align: left !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .copyright {
+    text-align: left !important;
   }
 }
 
@@ -151,6 +157,11 @@ margin-bottom:10px;
 .header2 {
 min-height :50px;
 padding-top:8px;
+}
+
+.footer {
+  margin-top:15px;
+  margin-bottom:10px;
 }
 
 .wide-header {
