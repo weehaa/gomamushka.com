@@ -1,10 +1,10 @@
  @font-face {
     font-family: DinPro;
-    src: url(http://gomamushka.com/font/DINPro-Medium.otf);
+    src: url('http://gomamushka.com/font/DINPro-Medium.otf');
 }
  @font-face {
     font-family: DinProLight;
-    src: url(http://gomamushka.com/font/DINPro-Light.otf);
+    src: url('http://gomamushka.com/font/DINPro-Light.otf');
 }
 
 @media screen and (max-width: 767px) {
@@ -40,24 +40,30 @@ body {
 }
 
 .header2-item {
-  padding-left: 2em;
-  color: #ffffff;
-  line-height: 35px;
+      height: 2.4em;
+      display: inline-block;
+      padding-left: 32px;
+      color: #ffffff;
+      line-height: 2.4em;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-position: 0 50%;
 }
 .header2-item a {
   color: #ffffff !important;
 }
 
 .header2-item.item1 {
-  background: url('./images/calend.png') 0 0 no-repeat;
+  background-image: url('./images/calend.png');
 }
 
 .header2-item.item2 {
-  background: url('./images/map1.png') 2% 0 no-repeat;
+  background-image: url('./images/map1.png');
+  background-position: 2% 50%;
 }
 
 .header2-item.item3 {
-  background: url('./images/money.png') 0 0 no-repeat;
+  background-image: url('./images/money.png');
 }
 
 .header-icons {
@@ -89,12 +95,15 @@ background-color: rgba(243, 119, 112, 0.5);
 }
 
 .bg-volna-1 {
-  background-image:url('./images/volna_bgr.png'); background-position: bottom;
-  background-repeat: repeat-x;
+  background:
+    url('./images/volna_bgr.png') bottom repeat-x,
+    url('./images/gorod1.png') 50% -110% no-repeat ,
+    rgba(76, 120, 145, 1);
 }
 
 .bg-volna-2 {
-  background-image:url('./images/volna_bgr_2.png'); background-position: bottom;
+  background-image:url('./images/volna_bgr_2.png');
+  background-position: bottom;
   background-repeat: repeat-x;
   height: 130px;
 }
@@ -132,7 +141,7 @@ h1 {
 }
 h2 {
     font-family: DinPro;
-  	font-size: 1.8em;
+  	font-size: 2em;
     font-weight: bold;
 	color: rgba(76, 120, 145, 1);
     padding-bottom: 20px;
