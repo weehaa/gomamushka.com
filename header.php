@@ -12,9 +12,8 @@
 </head>
 	<body <?php body_class();?>>
 
-    <div class="container-fluid bg1 bg-volna<?php echo  (is_front_page()) ? '-1' : '-2' ?>">
-      <?php get_header('top') ?>
-      <?php (is_front_page()) ? get_header('logo') :'' ?>
+    <div class="container-fluid bg1 bg-volna-<?php echo  (is_front_page()) ? '1' : '2' ?>">
+      <?php get_header('top-menu') ?>
     </div>
 
     <?php get_header('bottom') ?>
