@@ -1,5 +1,5 @@
 <!-- Header top menu -->
-<div class="container-fluid bg1">
+<!-- <div class="container-fluid bg1"> -->
   <div class="container header1 px-0">
         <div class="row">
             <div class="nobg col-lg-2 col-md-3 col-sm-3 col-xs-6 right text-right"><a href="<?php bloginfo('url'); ?>">
@@ -9,4 +9,4 @@
             </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
